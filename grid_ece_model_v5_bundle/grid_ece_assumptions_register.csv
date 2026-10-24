@@ -1,0 +1,13 @@
+input,value,unit,classification,source_or_evidence_needed
+Site connection limit,1000.0,kW AC,ASSUMPTION,Utility-approved connection / site electrical drawings
+Other site load,100.0,kW AC,ASSUMPTION,"Interval meter data excluding charger load, or submeter"
+Safety margin,50.0,kW,ASSUMPTION,Electrical engineer / utility approved operating limit
+A400 charger max,400.0,kW DC per charger,"SOURCE-BASED, verify exact configuration",Current ABB North American datasheet and purchase configuration
+A400 minimum output,100.0,kW per active port/session,"SOURCE-BASED, verify exact configuration",Current ABB datasheet / controller documentation
+Power allocation increment,50.0,kW,"SOURCE-BASED, verify exact configuration",ABB datasheet and controller documentation
+Charger efficiency,0.965,fraction,"SOURCE-BASED, verify exact datasheet meaning","ABB datasheet, confirm whether full-load/total-system value"
+Electricity price,0.12,CAD/kWh,PLACEHOLDER,Actual Hydro-Québec bill and applicable Rate BR terms
+Demand charge,0.0,CAD/kW-month,"UNCONFIRMED, intentionally zero",Applicable tariff and actual bill; do not assume Rate BR has this charge
+Québec emissions factor,1.9,g CO2e/kWh,"SOURCE-BASED annual factor, year specified",Government of Canada factor table; use hourly marginal factor for causal time-shifting claims
+Session energy,100.0,kWh/session,SYNTHETIC WORKLOAD ASSUMPTION,Actual session records
+Session max power,400.0,kW DC/session,SYNTHETIC WORKLOAD ASSUMPTION,Vehicle acceptance / charger session records

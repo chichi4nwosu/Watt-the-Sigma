@@ -1,0 +1,11 @@
+item,status,evidence_needed
+Identify actual Québec site and operator,OPEN,"Site address, operator, utility account/service ID (keep sensitive IDs private)"
+Verify service/transformer/switchgear capacity,OPEN,"Approved drawings, nameplate ratings, utility accepted load limit"
+Verify ABB site-wide controller behavior,OPEN,"Written vendor/integrator confirmation, architecture, tests with four chargers"
+Verify safe offline/failure behavior,OPEN,"Documented local fallback limits and test results for cloud, meter, controller failure"
+Confirm Rate BR eligibility and bill formula,OPEN,Actual bill and Hydro-Québec tariff confirmation for this public charging site
+Collect matched baseline/managed interval data,OPEN,Prefer 15-minute meter data plus charger/session data across comparable days
+Compare service quality,OPEN,"Completed by departure, delivered/requested kWh, wait, failed/abandoned sessions"
+Validate emissions method,OPEN,"Factor year, average vs marginal method, same-energy baseline comparison"
+Test rebound peak,OPEN,Meter/control logs during recovery and resumption after peak period
+Validate model against pilot data,OPEN,Compare predicted interval kW/kWh with held-out observed data

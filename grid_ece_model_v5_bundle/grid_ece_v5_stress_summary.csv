@@ -1,0 +1,7 @@
+case,scenario,sessions,total_requested_charging_kwh,total_delivered_charging_kwh,total_unserved_charging_kwh,sessions_fully_served_by_departure,session_completion_rate_pct,peak_charger_dc_kw,peak_total_site_ac_kw_est,intervals_over_operating_ceiling,site_operating_ceiling_ac_kw_assumed,status
+baseline_workload,dynamic_site_cap,21,2100.0,2100.0,0.0,21,100.0,800.0,929.016,0,950.0,"SYNTHETIC SIMULATION ONLY, not field results or ABB controller behavior"
+arrival_surge,dynamic_site_cap,28,2800.0,2400.0,400.0,12,42.857,800.0,929.016,0,950.0,"SYNTHETIC SIMULATION ONLY, not field results or ABB controller behavior"
+tight_deadlines,dynamic_site_cap,21,2100.0,1700.0,400.0,5,23.81,800.0,929.016,0,950.0,"SYNTHETIC SIMULATION ONLY, not field results or ABB controller behavior"
+lower_vehicle_acceptance,dynamic_site_cap,21,2100.0,1900.0,200.0,5,23.81,800.0,929.016,0,950.0,"SYNTHETIC SIMULATION ONLY, not field results or ABB controller behavior"
+higher_energy_need,dynamic_site_cap,21,3150.0,2750.0,400.0,5,23.81,800.0,929.016,0,950.0,"SYNTHETIC SIMULATION ONLY, not field results or ABB controller behavior"
+cloud_loss_static_fallback_proxy,cloud_loss_static_fallback_proxy,21,2100.0,2100.0,0.0,21,100.0,800.0,929.016,0,950.0,SYNTHETIC FALLBACK PROXY ONLY; vendor confirmation and fault testing required

@@ -1,0 +1,2 @@
+session_id_anonymized,mode,arrival_timestamp_local,departure_timestamp_local,energy_requested_kwh,energy_delivered_kwh,vehicle_max_dc_kw_if_known,charge_complete_by_departure,wait_minutes,abandoned_or_failed,notes
+S001,baseline_or_managed,,,,,,,,,"Do not include names, license plates, or other direct identifiers."

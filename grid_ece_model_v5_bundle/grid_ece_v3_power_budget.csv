@@ -1,0 +1,2 @@
+site_connection_limit_ac_kw,safety_margin_kw_assumed,other_site_load_kw_assumed,operating_ceiling_site_ac_kw,charger_input_budget_ac_kw,estimated_dc_charging_budget_kw,status
+1000.0,50.0,100.0,950.0,850.0,820.25,"ILLUSTRATIVE, replace with site-specific electrical data"

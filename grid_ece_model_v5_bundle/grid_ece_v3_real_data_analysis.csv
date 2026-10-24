@@ -1,0 +1,2 @@
+status,file_expected
+NOT RUN: no real interval-data CSV supplied,/Users/chi-chinwosu/Downloads/grid_ece_model_v5_bundle/grid_ece_real_interval_data.csv

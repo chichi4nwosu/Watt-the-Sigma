@@ -1,0 +1,2 @@
+timestamp_local,mode,site_meter_kw,site_energy_kwh_interval,charger_dc_kw_total,delivered_charging_kwh_interval,actual_total_bill_cad,active_sessions,completed_sessions,failed_sessions,ambient_temperature_c,notes_fault_or_offline_event
+2026-01-01 00:00:00,baseline_or_managed,,,,,,,,,,
